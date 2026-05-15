@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Dipte | Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Shivam Dipte | Portfolio">
+    <meta name="description" content="Portfolio of Shivam Dipte, an Aspiring Full Stack Developer passionate about building robust web applications and sharing knowledge.">
+    <meta name="keywords" content="Shivam Dipte, Full Stack Developer, Web Development, Software Engineer, Portfolio, HTML, CSS, JavaScript, Java, Python">
+    <meta name="author" content="Shivam Dipte">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shivam-111.github.io/MY_PORTFOLIO/">
+    <meta property="og:title" content="Shivam Dipte | Portfolio">
+    <meta property="og:description" content="Aspiring Full Stack Developer. View my projects, skills, and experience.">
+    <meta property="og:image" content="https://shivam-111.github.io/MY_PORTFOLIO/images/profile.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <span class="logo-text">Shivam<span class="accent">.</span></span>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Ambient Background Animation -->
+    <div id="particles-js" class="ambient-background"></div>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="logo"><span class="accent">&lt;</span>Shivam <span class="accent">/&gt;</span></div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions" style="display: flex; align-items: center; gap: 20px;">
+            <div class="theme-toggle" role="button" aria-label="Toggle theme" tabindex="0">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger" role="button" aria-label="Toggle navigation menu" tabindex="0">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="greeting">Hi there! My name is</p>
+            <h1 class="name">Shivam Dipte</h1>
+            <h2 class="dynamic-text">I'm a <span class="typing" id="typed-text"></span><span class="cursor">|</span></h2>
+            <p class="description">
+                Passionate about building scalable applications and sharing knowledge. Aspiring Full Stack Developer with hands-on experience in modern web technologies.
+            </p>
+            <div class="cta-buttons" style="flex-wrap: wrap;">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="public/resume.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> Download CV</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shivam-dipte-95a803345" target="_blank" aria-label="Visit my LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:shivamdipte0@gmail.com" aria-label="Send me an email"><i class="fas fa-envelope"></i></a>
+                <a href="https://youtube.com/@shivamdipte?si=z-o9R2xjRdG9_DDU" target="_blank" aria-label="Visit my YouTube channel"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="abstract-shape">
+                <img src="images/profile.png" alt="Shivam Dipte" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am an <strong>Aspiring Full Stack Developer</strong> currently pursuing my B.Tech in Computer Science & Engineering at S.B. Jain Institute of Technology, Management & Research, Nagpur. I have a strong foundation in data structures, algorithms, and problem-solving.</p>
+                <p>My journey in tech involves building robust e-commerce solutions, developing responsive user interfaces, and sharing my learnings as a Content Creator on YouTube. I am driven by the desire to continuously learn and build real-world applications that solve actual problems.</p>
+                <a href="public/resume.pdf" download class="btn btn-primary" style="margin-top: 10px; margin-bottom: 2rem;"><i class="fas fa-file-pdf"></i> Download Resume</a>
+                
+                <h3 class="subsection-title">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2025 – Expected 2028</div>
+                        <div class="timeline-content">
+                            <h4>B.Tech in Computer Science & Engineering</h4>
+                            <p>S.B. Jain Institute of Technology, Management & Research, Nagpur</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Sep 2022 – May 2025</div>
+                        <div class="timeline-content">
+                            <h4>Diploma in Computer Engineering</h4>
+                            <p>Maharashtra State Board of Technical Education (MSBTE)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats glass-card">
+                <div class="stat">
+                    <i class="fas fa-code stat-icon"></i>
+                    <h3>Full Stack</h3>
+                    <p>Development Focus</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-certificate stat-icon"></i>
+                    <h3>3+</h3>
+                    <p>Certifications in Python & DSA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="section-title">
+            <h2>Technical Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category glass-card fade-up">
+                <h3>Languages</h3>
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card fade-up" style="transition-delay: 0.1s;">
+                <h3>Web Technologies</h3>
+                <div class="tags">
+                    <span class="tag">Frontend Development</span>
+                    <span class="tag">Responsive Design</span>
+                    <span class="tag">DOM Manipulation</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card fade-up" style="transition-delay: 0.2s;">
+                <h3>Core Competencies</h3>
+                <div class="tags">
+                    <span class="tag">Data Structures</span>
+                    <span class="tag">Algorithms</span>
+                    <span class="tag">Problem Solving</span>
+                    <span class="tag">Version Control (Git)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="section-title">
+            <h2>Professional Experience</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="experience-list">
+            <div class="experience-card glass-card fade-up">
+                <div class="exp-header">
+                    <div>
+                        <h3>Web Development Intern</h3>
+                        <p class="company">iBase Electrosoft LLP, Amaravati</p>
+                    </div>
+                    <span class="date">June 2024 – July 2024</span>
+                </div>
+                <ul class="exp-details">
+                    <li>Developed a fully functional e-commerce website (Onlineshoes.com) using HTML, CSS, and JavaScript.</li>
+                    <li>Designed responsive user interfaces ensuring cross-browser compatibility and a mobile-first approach.</li>
+                    <li>Implemented core e-commerce features including product catalog, shopping cart, and user-friendly navigation.</li>
+                    <li>Collaborated with team members to deliver the project within a 2-month timeline while maintaining code quality.</li>
+                </ul>
+            </div>
+
+            <div class="experience-card glass-card fade-up" style="transition-delay: 0.1s;">
+                <div class="exp-header">
+                    <div>
+                        <h3>Content Creator</h3>
+                        <p class="company">YouTube (Remote)</p>
+                    </div>
+                    <span class="date">January 2025 – Present</span>
+                </div>
+                <ul class="exp-details">
+                    <li>Create educational technology content focused on programming, web development, and career guidance.</li>
+                    <li>Share practical insights to help aspiring developers learn and grow.</li>
+                    <li>Build an engaged community by delivering valuable content on computer science topics.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="section-title">
+            <h2>Key Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass-card fade-up">
+                <a href="#home" class="project-image" style="display: block; overflow: hidden; height: 200px; padding: 0;">
+                    <img src="images/portfolio-bg.png" alt="Portfolio Screenshot" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
+                <div class="project-content">
+                    <h3>Advanced AI Portfolio</h3>
+                    <p>A highly customized, next-generation developer portfolio built from scratch. Features include advanced AI Voice-Activated Navigation, an interactive particle background, and robust API-driven contact forms.</p>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Web Speech API</span>
+                        <span class="tag">CSS Glassmorphism</span>
+                    </div>
+                    <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="https://github.com/Shivam-111/MY_PORTFOLIO" target="_blank" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#home" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fas fa-arrow-up"></i> Live View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card fade-up" style="transition-delay: 0.1s;">
+                <div class="project-image" style="background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);">
+                    <i class="fas fa-shopping-cart fa-4x" style="color: white; opacity: 0.8; height: 100%; display: flex; align-items: center; justify-content: center;"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Onlineshoes.com (Clone)</h3>
+                    <p>Developed a complete e-commerce solution with product display, shopping cart functionality, and responsive design. Focused on user experience and clean code architecture.</p>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="https://github.com/Shivam-111/OnlineShoes.com.git" target="_blank" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://youtu.be/7xIYt-BQsZk?si=ZySGr4OXxbzQkNQa" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card glass-card fade-up" style="transition-delay: 0.2s;">
+                <a href="https://rainbow-macaron-a8328b.netlify.app/" target="_blank" class="project-image" style="display: block; overflow: hidden;">
+                    <img src="images/calculator.png" alt="Smart Calculator Screenshot" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
+                <div class="project-content">
+                    <h3>Smart Calculator</h3>
+                    <p>A web-based intelligent calculator capable of performing complex mathematical operations. Built with a focus on an intuitive user interface and robust logic handling.</p>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="https://github.com/Shivam-111/Smart-Calculator.git" target="_blank" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://youtu.be/iU68TkSFbQ8?si=R7AABSFreXpTmxDe" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card fade-up" style="transition-delay: 0.3s;">
+                <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <i class="fas fa-layer-group fa-4x" style="color: white; opacity: 0.8; height: 100%; display: flex; align-items: center; justify-content: center;"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Full Stack Practice Projects</h3>
+                    <p>Built various real-world applications to strengthen skills in frontend and backend technologies, adopting modern development practices and scalable designs.</p>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Web Tech</span>
+                    </div>
+                    <!-- Buttons removed for now since there are no active links yet 
+                    <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                        <a href="#" target="_blank" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; flex: 1; text-align: center;"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container glass-card fade-up">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                
+                <div class="contact-methods">
+                    <div class="method">
+                        <i class="fas fa-envelope"></i>
+                        <span>shivamdipte0@gmail.com</span>
+                    </div>
+                    <div class="method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Amaravati, Maharashtra, India</span>
+                    </div>
+                    <div class="method">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/shivam-dipte-95a803345</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <!-- Web3Forms Honeypot to prevent spam -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Shivam Dipte. Built with passion.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Voice Navigation UI -->
+    <button id="voice-nav-btn" class="voice-btn" aria-label="Activate voice navigation">
+        <i class="fas fa-microphone"></i>
+        <div class="pulse-ring"></div>
+    </button>
+    
+    <div id="speech-toast" class="speech-toast">
+        <i class="fas fa-wave-square"></i>
+        <span id="speech-text">Listening...</span>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span>Message sent successfully!</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
