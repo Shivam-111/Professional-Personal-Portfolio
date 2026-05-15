@@ -10,7 +10,7 @@
 ![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 
-🔗 [Live Demo]((https://cerulean-hotteok-c48e36.netlify.app/))
+🔗 [Live Demo](https://cerulean-hotteok-c48e36.netlify.app/)
 
 ---
 
